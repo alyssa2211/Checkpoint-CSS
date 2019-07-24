@@ -1,0 +1,362 @@
+/*  */
+/* holepage */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* navbar */
+.sec1{
+    background-color: black;  
+    margin: 0px;
+    width: 100%;
+    height: 8vh;
+    
+}
+.nav img{
+    width: 7vh;
+    height:auto;
+    float: right;
+}
+
+.nav {
+    /* background-color:blueviolet; */
+    height : 100vh;
+    width : 100%;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto; 
+}
+
+.nav a{
+    text-decoration:none;
+    color:gray;
+    font-size: 2em;
+    padding-top: 9px;
+}
+
+.line-1 .sec1-line{
+    height: 2px;
+    width: 0%;
+    margin-right: auto;
+    margin-left: auto; 
+
+}
+.line-1:hover .sec1-line{
+    width: 100%; 
+    transition: 0.5s;
+    background-color: orange;
+}
+
+
+.line-2 .sec2-line{
+    height: 2px;
+    width: 0%;
+    margin-right: auto;
+    margin-left: auto; 
+
+}
+.line-2:hover .sec2-line{
+    width: 100%; 
+    transition: 0.5s;
+    background-color: orange;
+}
+
+.line-3 .sec3-line{
+    height: 2px;
+    width: 0%;
+    margin-right: auto;
+    margin-left: auto; 
+
+}
+.line-3:hover .sec3-line{
+    width: 100%; 
+    transition: 0.5s;
+    background-color: orange;
+}
+
+.line-4 .sec4-line{
+    height: 2px;
+    width: 0%;
+    margin-right: auto;
+    margin-left: auto; 
+
+}
+.line-4:hover .sec4-line{
+    width: 100%; 
+    transition: 0.5s;
+    background-color: orange;
+}
+
+/* nav bar soulignement curseur manquant  */
+
+/* ________________________________________*/
+
+ /* sec2 about us */
+
+
+.sec2{
+    height: 100vh;
+    width: 100%;
+    background-color: grey;
+    background-attachment: fixed;
+    padding-top: 200px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sec2 .img img{
+    width: 650px;
+    height:auto;
+   }
+
+.sec2:hover img{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.left h2{
+    margin-top: 0%;
+    color: gray;
+    font-size: 2em;
+}
+
+
+.left p{
+    color: black;
+    font-size: 1.5em;
+    height:3px;
+    align-content: left;
+    margin-left: 25px;
+
+}
+
+.left{
+    align-content: left;
+    background-image :radial-gradient(grey, black);
+    height: 550px;
+    width: 450px;
+    margin-left: 25px;
+    
+}
+
+.left:hover{
+    border: 5px solid orange; 
+    cursor: pointer;
+    transition: 1s;
+    outline: 55px;
+    transform: scale(1.1);
+}
+/* cadre + effets */
+/* end section 2 */
+
+/* section 3  cards */
+.sec3{
+    background-image: url(https://images.pexels.com/photos/957061/milky-way-starry-sky-night-sky-star-957061.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background:cover;
+    height: 100vh;
+    width: 100%;
+    box-shadow: 5px 5px gray;
+    padding-top: 250px
+}
+
+.sec3 .cards{
+    display: flex;
+    padding-bottom: 20px; 
+}
+
+.sec3 .card{ 
+    background:grey;
+    border-radius: 100px;
+    margin : 5px;
+    width: 500px;
+    height: 450px;
+    text-align: center;
+    font-size: 1.5em;
+    align-content:space-around; 
+    margin-left : 50px;
+    transition: 1s;
+ 
+    }
+
+    .card .title:hover{
+        color: rgb(248, 105, 10);
+    }
+
+.card:hover{
+    border: 5px rgb(252, 164, 83) solid;
+    transition: 1s;
+    margin: 5px;
+    width: 400px;
+    height: 450px;
+    margin-left: 50px;
+    }
+
+.card .button button{
+    position: center;
+    cursor: pointer;
+    width: 250px;
+    height:100px;
+    font-size: 1.5em;
+    border-radius: 100px;
+    text-decoration: none;
+    background: rgb(241, 170, 89);
+    line-height: 30px;
+    border: none;
+}
+
+.card .button button:hover{
+    background: rgb(250, 116, 38);
+    margin: 10px;
+}
+
+.card .img2 img{ 
+    cursor: pointer;
+    height: 100px; 
+    width: auto;
+    transition: 1s;
+}
+
+.im2:hover{
+    transition: 1s;
+    transform: rotateY(180deg); 
+}
+
+/* box plus cadre +effets logos transition y  */
+/* end section 3 manque effets sur le bouton subscibe 
+regarder la vidéo du cour 
+https://www.youtube.com/watch?v=K3m9PyU_egs&feature=youtu.be
+
+etce liens pour les noms des differents hover
+https://ianlunn.github.io/Hover/
+ */
+
+/* section 4 gallery */
+
+.sec4{
+    height : 100vh;
+    width : 100%;
+    padding-top: 0%;
+    padding-bottom: 0.5px;
+    background-color: black;
+}
+
+.item1 {grid-area: header;}
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer;}
+
+.item1 {
+    background-image: url(https://urlzs.com/tt2VH);
+    background-size: cover;
+}
+
+.item2 {
+   background-image: url(https://urlzs.com/tSYsV);
+   background-size: cover;
+    }
+
+    .item3 {
+        background-image: url(https://urlzs.com/fLJpU);
+        background-size: cover;
+        }
+
+        .item4 {
+            background-image: url(https://urlzs.com/RA7Bi);
+            background-size: cover;
+            }
+            .item5 {
+                background-image: url(https://urlzs.com/m2RAk);
+                background-size: cover;
+                }
+
+.grid-container {
+  display: grid;
+  grid:
+  'header header header header header header'
+  'menu main main main right right'
+  'menu footer footer footer footer footer';
+  grid-gap: 2px;
+  padding: 0px;
+  background-color:plum;
+  height : 100vh ;
+  width : 100%;
+
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+/* /https://www.w3schools.com/cssref/tryit.asp?filename=trycss_grid3* fin section4 */ */
+
+
+
+/* section 5 */
+.sec5{
+    height : 100vh;
+    width : 100%;
+    align-content: space-around;
+}
+
+.sec5{
+    background-color: grey;
+    background-attachment: fixed;
+    padding-top: 100px;
+    padding-left: 500px;
+    padding-bottom: 50px;
+    display: flex;
+}
+.feed{
+    border-radius: 1vh;
+    background-image :radial-gradient(grey, black);
+    font-size: 1.5em; 
+    align-content: center;
+    text-align: center;
+    transition: 0.5s;
+    width: 450px;
+    height: 550px;
+    
+}
+
+h1:hover{
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+.feed:hover{
+    cursor: pointer;
+    border: 100vh;
+    transition: 1s;
+    transform: scale(1.1);
+    border:rgb(250, 116, 38);
+}
+
+.sec5 .list.input{
+    border: none;
+}
+.sec5 button{
+    position: center;
+    width: 250px;
+    height:110px;
+    font-size: 1.5em;
+    border-radius: 100px;
+    text-decoration: none;
+    background-color: rgb(241, 170, 89);
+    line-height: 40px;
+    border: none;
+    }
+
+    .sec5 .button button:hover{
+        cursor: pointer;
+        background-color: rgb(250, 116, 38);
+
+    }
+
+/* encadrement feedback  */
+/* fin secion 5 */
